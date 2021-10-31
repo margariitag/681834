@@ -1,0 +1,47 @@
+/* PC */
+body{
+    display: grid;}
+
+
+@media screen and (min-width: 1280px) {
+    body{
+        display: grid;
+    }
+    /*navbar*/
+    a{
+        color:#FFFFFF; 
+        text-decoration: none;
+    }
+    a:hover {
+        color: #89CFF0;;
+      }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1D94F3; 
+        
+    }
+      
+      li {
+        float: left;
+      }
+      
+      li {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      #logo{
+        display: inline;
+        width: 70px;
+        height: 70px;
+    }
+   
+      
+     
+      
+}
